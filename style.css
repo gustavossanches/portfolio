@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#home{
+    background-color: rgb(73 17 17);
+    height: 100vh;
+    width: 100%;
+}
+
+.nav-link{
+    color: white;
+}
+
+#about{
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+}
+
+#contact{
+    background-color: lightgreen;
+    height: 100vh;
+    width: 100%;
+}
+
