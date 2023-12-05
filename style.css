@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
+section{
+    padding: 6rem;
+}
+
+img{
+    background-color: orange;
+}
+
 #home{
-    background-color: rgb(73 17 17);
+    background-color: rgb(250, 88, 88);
     height: 100vh;
     width: 100%;
 }
@@ -16,13 +24,39 @@
 
 #about{
     background-color: blue;
-    height: 100vh;
     width: 100%;
 }
 
-#contact{
+#resume{
     background-color: lightgreen;
-    height: 100vh;
     width: 100%;
 }
+
+
+/*-- inicio timelilne --*/
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+  }
+  
+  .timeline .timeline-item {
+    position: relative;
+  }
+  
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  
+  .timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+  }
+/*-- fim timelilne --*/
 
