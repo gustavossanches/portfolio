@@ -1,13 +1,13 @@
 .ver_mais:hover {
   transition: 0.1s;
-  background-color: blue;
+  background-color: #77919a;
   color: white;
 }
 
 .ver_mais {
   transition: 0.1s;
   font-family: monospace;
-  background-color: lightblue;
+  background-color: #4f6167;
   color: black;
 }
 
@@ -345,7 +345,12 @@ nav button:hover {
 
 }
 
+.card_projeto h3{
+  text-align: center;
+}
+
 .ver_mais {
+  transition: 0.2s;
   padding: 0.2rem 1rem;
   margin-top: 1rem;
   border-radius: 5px;
@@ -353,6 +358,7 @@ nav button:hover {
 }
 
 .ver_mais:hover {
+  transition: 0.2s;
   color: white;
   box-shadow: 0px 0px 3px 0px #00000045;
 }
