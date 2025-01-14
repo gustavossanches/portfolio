@@ -470,6 +470,10 @@ body {
   header {
     display: none;
   }
+  
+  .box-home {
+    padding: 1rem;
+  }
 
   .sobre_mim_info a {
     text-wrap: auto;
@@ -566,7 +570,6 @@ body {
   .resumo_profissional, .resumo_educação {
     width: 100%;
     border: none;
-    border-bottom: 1px solid white;
     border-top: 1px solid white;
   }
 
